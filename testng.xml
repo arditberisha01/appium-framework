@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite (E2E)">
+    <listeners>
+        <listener class-name="TestUtils.Listeners"></listener>
+    </listeners>
+    <test name="Android Tests">
+        <classes>
+            <class name="eCommerce_tc_4_Hybrid"></class>
+        </classes>
+    </test>
+    <test name="Error Validations Test">
+        <classes>
+            <class name="eCommerce_tc_2"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite>
+
